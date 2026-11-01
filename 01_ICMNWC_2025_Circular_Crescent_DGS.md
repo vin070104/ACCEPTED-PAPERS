@@ -51,7 +51,7 @@ Sub-6 GHz 5G base stations; UAV communication; IoT and compact wireless systems,
 The paper reports inconsistent S11 values between its abstract, results and conclusion/table. VSWR is dimensionless even though the paper appends dB. Treat all values as reported simulation results; do not claim fabrication or measurement unless supported separately.
 
 ## 9. Original paper PDF
-[Open/download the original paper](papers/ICMNWC_2025_Circular_Crescent_DGS.pdf)
+[Open/download the original paper](10.1109/ICMNWC66779.2025.11354274)
 
 ## 10. Suggested figures to add to this repository
 

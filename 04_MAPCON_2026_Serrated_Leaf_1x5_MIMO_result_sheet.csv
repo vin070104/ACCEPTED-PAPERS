@@ -1,0 +1,27 @@
+﻿Paper title,Low-Observable High-Gain Serrated Leaf 1×5 MIMO Array for Secure Airborne 5G/6G Networks
+Authors,Vinay P Bhavi; Venkatesha Muniswamy; Divya T M; Ashish C; Shashikumar D; Preetham H
+Conference/status,MAPCON 2026 — acceptance status provided by the author. Attach the official acceptance notification if documentary confirmation is required.
+
+Parameter,Reported result,Notes
+Impedance bandwidth,10.726 GHz,26.853–37.579 GHz; S11 below −10 dB
+Fractional bandwidth,33.3%,As reported in abstract
+Minimum S11,−42.70 dB,Near principal resonance
+VSWR,1.05,Minimum/ideal value reported; VSWR below 2 across the stated band
+Peak total gain,11.27 dB,Far-field total gain
+Peak realized gain,10.60 dB,Reported realized gain
+ECC,0.0001–0.0160,Reported diversity range
+Diversity gain,Approximately 9.9997 dB,Reported theoretical-near-maximum value
+Monostatic RCS peak,−33.42 dBsm,Abstract/results
+Monostatic RCS null,−65.23 dBsm,Abstract/results
+Bistatic RCS,Peak −46.5 dBsm in abstract; minima −69.82 and −79.20 dBsm in results,Peak and minima are different statistics; preserve distinction
+Inter-port isolation,Paper states coupling parameters meet a −20 dB target across functional band,Use the plotted S-parameter results for detailed port-pair values
+
+Specifications,Details
+Frequency,26.853–37.579 GHz (Ka-band range stated in the paper)
+Substrate,The supplied extracted sections do not clearly state the substrate material/relative permittivity; confirm from the full design setup before publishing a substrate specification.
+Architecture,Serrated leaf-shaped 1×5 linear five-port MIMO array; tapered microstrip feed; lateral serrations; inter-element pitch 0.69λ.
+Dimensions,"Array footprint: 37.59 × 9.4 mm²; 1×5 elements; inter-element pitch 0.69λ. Table I lists design dimensions in centimetres: LSE 0.31, RTE 0.10, Lp 0.73, Wp 0.63, Se3 0.90, Se1 0.15, Se2 0.12, SL 0.12, CT 0.15, FL 0.17."
+Method,"Computational electromagnetic analysis of S-parameters, gain/realized gain, MIMO diversity parameters (ECC, DG, TARC) and monostatic/bistatic radar cross section (RCS). The paper presents simulated results; it does not establish hardware validation."
+Importance,The central research proposition is the integration of wideband Ka-band MIMO communication performance with low ECC and reduced radar scattering in a compact 1×5 geometry. This combination of communication and low-observable/RCS analysis is the distinguishing feature relative to the other supplied antenna papers.
+Applications,"Secure airborne communication links, UAVs, tactical platforms and prospective 5G/6G millimetre-wave communication systems, as proposed by the paper."
+Limitations,"Simulation-only evidence in the supplied paper; do not claim fabricated, flight-tested, operationally stealthy or experimentally validated performance. The abstract's bistatic RCS peak (−46.5 dBsm) must not be confused with the deeper minima reported in the results section. Substrate details should be verified from the full HFSS model/setup."
